@@ -34,7 +34,9 @@ $ nodejs node_ssl_logger.js -p openssl &
 Press Ctrl+C to stop logging.
 
 # Write the final line-feed to our pipe to complete the HTTP request
-$ printf "\n" > pipegeffner@ubuntu:~$ 
+$ printf "\n" > pipe
+
+# Check the output for magic!
 ```
 
 ## Todo
