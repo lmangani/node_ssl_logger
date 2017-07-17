@@ -8,6 +8,12 @@ The functionality offered by **node_ssl_logger** is intended to mimic Google's [
 Status:
 * Experimental! Please use the original! (unless you hate python)
 
+## Requirements
+
+This program uses the frida framework to perform code injection.
+
+Frida can be installed as follows: ```sudo pip install frida```
+
 ## Installation
 ```
 npm install
