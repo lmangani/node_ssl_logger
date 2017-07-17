@@ -1,3 +1,5 @@
+<img src="https://cdn.pixabay.com/photo/2012/04/16/13/32/lock-36018_640.png" width="50"/>
+
 # node_ssl_logger
 Decrypts and logs a process's SSL traffic via Frida Code Injection
 
