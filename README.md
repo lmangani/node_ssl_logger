@@ -1,7 +1,7 @@
 # node_ssl_logger
 Decrypts and logs a process's SSL traffic via Frida Code Injection
 
-The functionality offered by node_ssl_logger is intended to mimic Google's ssl_logger and Echo Mirage's SSL logging functionality.
+The functionality offered by **node_ssl_logger** is intended to mimic Google's [ssl_logger](https://github.com/google/ssl_logger) and [Echo Mirage](http://resources.infosecinstitute.com/echo-mirage-walkthrough/)'s SSL logging functionality on NodeJS/Linux. Other systems untested!
 
 
 ## Installation
