@@ -2,7 +2,7 @@
 
   node_ssl_logger: Decrypts and logs a process's SSL traffic via Frida Code Injection
   Code based on https://github.com/google/ssl_logger
-  Lorenzo Mangani <lorenzo.mangani@gmail.com>
+  2017, QXIP BV, Lorenzo Mangani <lorenzo.mangani@gmail.com>
 
 */
 
