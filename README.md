@@ -1,8 +1,10 @@
 # node_ssl_logger
 Decrypts and logs a process's SSL traffic via Frida Code Injection
 
-The functionality offered by **node_ssl_logger** is intended to mimic Google's [ssl_logger](https://github.com/google/ssl_logger) and [Echo Mirage](http://resources.infosecinstitute.com/echo-mirage-walkthrough/)'s SSL logging functionality on NodeJS/Linux. Other systems untested!
+The functionality offered by **node_ssl_logger** is intended to mimic Google's [ssl_logger](https://github.com/google/ssl_logger) and [Echo Mirage](http://resources.infosecinstitute.com/echo-mirage-walkthrough/)'s SSL logging functionality on NodeJS/Linux
 
+Status:
+* Experimental! Please use the original! (unless you hate python)
 
 ## Installation
 ```
@@ -34,6 +36,11 @@ Press Ctrl+C to stop logging.
 # Write the final line-feed to our pipe to complete the HTTP request
 $ printf "\n" > pipegeffner@ubuntu:~$ 
 ```
+
+## Todo
+
+* pcap export
+* plenty other things
 
 #### Credits
 Script and Examples based on Jason Geffner's python [ssl_logger](https://github.com/google/ssl_logger)
