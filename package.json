@@ -2,14 +2,17 @@
   "name": "node_ssl_logger",
   "description": "Decrypts and logs a process's SSL traffic using Frida",
   "author": "Lorenzo Mangani <lorenzo.mangani@gmail.com>",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "dependencies": {
-    "frida": "*"
+    "frida": "^11.0.3"
   },
   "config": {
-    "unsafe-perm":true
+    "unsafe-perm": true
   },
   "scripts": {
     "start": "nodejs node_ssl_logger.js"
+  },
+  "bin": {
+    "node_ssl_logger": "./node_ssl_logger.js"
   }
 }
